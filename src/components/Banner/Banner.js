@@ -72,15 +72,6 @@ const Banner = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <div className="right-banner-div">
-          <h3>Latest Super Discount Active Coupon Code</h3>
-          <div>
-            <img style={{ width: "100px" }} src={rightImg1} alt="" />
-          </div>
-          <div>
-            <img style={{ width: "100px" }} src={rightImg2} alt="" />
-          </div>
-        </div>
       </div>
     </div>
   );

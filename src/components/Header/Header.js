@@ -28,9 +28,9 @@ const Header = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 100</a>
+                <Link to="/home">Home</Link>
               </li>
-              <li tabIndex={0}>
+              {/* <li tabIndex={0}>
                 <a className="justify-between">
                   Parent
                   <svg
@@ -51,13 +51,24 @@ const Header = () => {
                     <a>Submenu 2</a>
                   </li>
                 </ul>
+              </li> */}
+              <li>
+                <Link to="/aboutUs">About Us</Link>
               </li>
               <li>
-                <a>Item 3</a>
+                <Link to="/contact">Contact Us</Link>
+              </li>
+              <li>
+                <Link to="/privacy&Policy"> Privacy&Policy</Link>
+              </li>
+              <li>
+                <Link to="/term&Conditions">Term & Conditions</Link>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <Link to="/" className="btn btn-ghost normal-case text-xl">
+            Farmers Bazar
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
